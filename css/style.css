@@ -7,11 +7,64 @@ body{
     font-family: "Edu TAS Beginner", cursive;
 }
 header{
-    height: 150px;
+    height: 125px;
     background-image: url('../img/wall.png');
     background-size:auto;
 }
 h1{
     font-size: 75px;
     font-weight: 700;
+}
+main{
+    background-image: url('../img/cork.png');
+    background-size:auto;
+    height: fit-content;
+}
+
+.cards{
+    width: 250px;
+    height: 300px;
+    background: white;
+    margin: 50px auto;
+    padding: 5px;
+    position: relative;
+
+}
+.square{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.row{
+    margin: 0 !important;
+    
+}
+.card-text{
+    margin: 0 10px;
+    height: 20%;
+}
+.card-img{
+    height: 80%;
+    width: 90%;
+}
+.card-img img{
+    max-width: 100%;
+    margin-top: 10px;
+}
+p{
+    margin: 1px auto;
+}
+.date-section{
+    font-family: "Sometype Mono", monospace;
+    font-size: 10px;
+}
+.title-section{
+    font-weight: 800;
+    font-size: 20px;
+}
+.pin{
+    width: 20px;
+    position: absolute;
+    right: 45%;
+    top: -10px;
 }

@@ -51,6 +51,7 @@ main{
 .card-img img{
     max-width: 100%;
     margin-top: 10px;
+    transition: 1s;
 }
 p{
     margin: 1px auto;
@@ -97,4 +98,7 @@ p{
 }
 .d-block{
     display: block;
+}
+.card-img:hover img{
+    transform: scale(1.07);
 }

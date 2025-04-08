@@ -29,7 +29,7 @@ main{
     padding: 5px;
     position: relative;
     cursor: pointer;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .square{
     height: 100px;
@@ -51,7 +51,6 @@ main{
 .card-img img{
     max-width: 100%;
     margin-top: 10px;
-    transition: 1s;
 }
 p{
     margin: 1px auto;
@@ -99,8 +98,9 @@ p{
 .d-block{
     display: block;
 }
-.card-img:hover img{
+.cards:hover{
+    transition: 1s;
     transform: scale(1.07);
     rotate: 10deg;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

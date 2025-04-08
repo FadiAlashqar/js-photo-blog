@@ -28,6 +28,7 @@ main{
     margin: 50px auto;
     padding: 5px;
     position: relative;
+    cursor: pointer;
 
 }
 .square{
@@ -79,6 +80,7 @@ p{
     right: 0;
     bottom: 0;
     position: fixed;
+    display: none;
 }
 #overlay-img{
     width: 50%;
@@ -93,4 +95,7 @@ p{
     top: 3%;
     right: 40%;
     left: 40%;
+}
+.d-block{
+    display: block;
 }

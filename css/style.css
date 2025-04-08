@@ -82,13 +82,12 @@ p{
     position: fixed;
     display: none;
 }
-#overlay-img{
+#overlay-img > img{
     width: 50%;
     position: absolute;
-    left: 25%;
     top: 10%;
     height: 80%;
-
+    left: 25%;
 }
 #button{
     position: absolute;
